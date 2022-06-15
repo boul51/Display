@@ -1,0 +1,6 @@
+*.bin
+*.elf
+*.map
+*.pri
+*.pro.user
+bin*/

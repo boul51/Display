@@ -1,0 +1,12 @@
+libs:
+ - ../../../Display
+ - ../../../MemoryFree
+ - ../../../Sample
+ - ../../../TFT
+ - ../../../arduino-printf
+ - ../../../arduino-logger
+
+cflags:
+ - -I$(CURDIR)
+ - -DHAS_LOGGER
+ - -DNO_PRAGMA_MARK
